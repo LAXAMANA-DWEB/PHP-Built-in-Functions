@@ -50,6 +50,7 @@ $string_for_other = 'School of Computing';
 
     <!-- what to use: (gagawin array ang string then gagawa array functions then gagawin siya ulit to string)
     explode($separator, $string [, $limit])
+    count($array)
     array_unshift
     array_push
     asort
