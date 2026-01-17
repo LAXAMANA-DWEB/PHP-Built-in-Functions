@@ -47,6 +47,17 @@ $string_for_other = 'School of Computing';
 
     <!-- Other Built-in Functions -->
     <h1>Original text: <?= $string_for_other ?></h1>
+
+    <!-- what to use: (gagawin array ang string then gagawa array functions then gagawin siya ulit to string)
+    explode($separator, $string [, $limit])
+    array_unshift
+    array_push
+    asort
+    arsort
+    ksort
+    krrsort
+    implode([$separator, ] $array) -->
+    
     
 
 </body>
