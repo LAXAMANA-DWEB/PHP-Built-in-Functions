@@ -1,13 +1,16 @@
 <?php
+// Author: Laxamana, Prince S.
+// Section: WD203
+// Date of Last Update: January 20, 2026
 
 $string_for_case_char = 'The quick brown fox jumps over the lazy dog.';
 $string_for_count_char = 'Prince Laxamana';
 $string_for_changing_char = 'Dannah Mikayla';
-$string_for_other = 'School of Computing';
+$string_for_other = 'IT Web Development';
 
 // For displaying the Other Built-in Functions
 $base_arr = explode(' ', $string_for_other);
-$new_value = 'HAU';
+$new_value = 'SOC';
 
 $explode_arr = $base_arr;
 
@@ -190,6 +193,5 @@ function display_arr($arr)
             <td><?= $implode_result ?></td>
         </tr>
     </table>
-</body>
 
-</html>
+    <?= include 'includes/footer.php' ?>

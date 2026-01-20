@@ -1,3 +1,7 @@
+/* Author: Laxamana, Prince S.
+   Section: WD203
+   Date of Last Update: January 20, 2026 */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4fcff;
@@ -6,12 +10,11 @@ body {
 }
 
 h1 {
-    margin-top: 2em;
     margin-bottom: 1em;
 }
 
 h2 {
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 h1, h2 {
@@ -51,4 +54,14 @@ td {
     border: 1px solid #000;
     padding: 10px 15px;
     text-align: left; 
+}
+
+footer {
+  background-color: #081d30;
+  padding: 0.05em 0;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  color: #f4fcff;
 }
